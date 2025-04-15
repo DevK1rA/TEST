@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto rápido</title>
+  <script>
+    // Redireccionar automáticamente a YouTube al cargar la página
+    window.onload = function () {
+      window.location.href = "https://www.youtube.com";
+    };
+  </script>
+</head>
+<body>
+  <h2>¡Contáctame!</h2>
+  <p>
+    <a href="sms:+528130280000?body=Hola,%20¿cómo%20estás?">
+      📱 Enviar SMS
+    </a>
+  </p>
+  <p>
+    <a href="mailto:trailersenmovimiento@proton.me?subject=Hola&body=Este%20es%20un%20mensaje">
+      📧 Enviar Correo
+    </a>
+  </p>
+</body>
+</html>
